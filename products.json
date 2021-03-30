@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Lavandina Ayudin Triple Accion 1LT",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/limpieza/lavandinas.html?ec_marca=6510&utm_source=web-crf&utm_medium=referral&utm_content=lavandina-ayudin&utm_campaign=BuscadorInterno",
+        "element_id": "product-price-76665"
+    },
+    {
+        "name": "Lavandina Ayudin Anti-Splash 2LT",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/limpieza/lavandinas.html?ec_marca=6510&utm_source=web-crf&utm_medium=referral&utm_content=lavandina-ayudin&utm_campaign=BuscadorInterno",
+        "element_id": "product-price-73890"
+    },
+    {
+        "name": "Desodorante Glade 360cc",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=glade+desodorante",
+        "element_id": "product-price-67283"
+    },
+    {
+        "name": "Detergente Magistral 500cc",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=magistral",
+        "element_id": "precio-numero"
+    },
+    {
+        "name": "Saquitos de te Green Hills x25",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/desayuno-y-merienda.html?ec_marca=6942",
+        "element_id": "product-price-30816"
+    },
+    {
+        "name": "Chocolinas 250gr (grande)",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=chocolinas",
+        "element_id": "product-price-19054"
+    },
+    {
+        "name": "Chocolinas 170gr (chico)",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=chocolinas",
+        "element_id": "product-price-19173"
+    },
+    {
+        "name": "Merengadas 93gr",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=merengadas",
+        "element_id": "product-price-19183"
+    },
+    {
+        "name": "Oregano Alicante 50gr",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=Or%C3%A9gano",
+        "element_id": "product-price-19891"
+    },
+    {
+        "name": "CIF Limpiavidrios gatillo 500cc",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=limpia+vidrios",
+        "element_id": "precio-numero"
+    },
+    {
+        "name": "Jabon de tocador Dove",
+        "category": "aseo personal",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=jab%C3%B3n+de+tocador+dove",
+        "element_id": "product-price-27801"
+    },
+    {
+        "name": "Antitranspirante Rexona men sport 150cc",
+        "category": "aseo personal",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=desodorante+rexona",
+        "element_id": "product-price-44352"
+    },
+    {
+        "name": "Dentifrico Colgate total 12 90g (chico)",
+        "category": "aseo personal",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=colgate",
+        "element_id": "product-price-39589"
+    }
+]
