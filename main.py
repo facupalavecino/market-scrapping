@@ -2,6 +2,7 @@ from pathlib import Path
 from classes import CarrefourScrapper
 import json
 
+
 def main():
     """
     Reads a list of market products and scraps the web looking for prices
@@ -11,7 +12,7 @@ def main():
 
     df = carrefour.analyze(products)
 
-    print(df.transpose())
+    print(df)
 
     # if Path(PRICES_CSV).is_file():
     #     df = pd.DataFrame([row], columns=headers)

@@ -3,25 +3,19 @@ import bs4
 from datetime import date
 import pandas as pd
 
+
 class CarrefourScrapper:
     """ Class that handles the web-scrapping in the Carrefour website """
 
     def analyze(self, products: list) -> pd.DataFrame:
-        """
-        Returns a DataFrame containing each product as a column and their prices as rows.
-        
-        It adds a column at the beginning with the current day
-        """
-
-        headers = []
-        row = []
-
-        headers.append('Date')
-        row.append(date.today().isoformat())
+        headers = [['Name', 'Category', 'Price'], [None, None, None]]
+        rows = []
 
         for product in products:
-            headers.append(product['name'])
+            name = product['name']
+            category = product['category']
             price = None
+            print(f'Searching price of {name}')
             req = requests.get(product['url'])
             if req.status_code == 200:
                 soup = bs4.BeautifulSoup(req.content, 'html.parser')
@@ -30,10 +24,11 @@ class CarrefourScrapper:
 
                 if element is not None:
                     price = float(element.text
-                                .replace('\n', '')
-                                .replace(' ', '')
-                                .replace('$', '')
-                                .replace(',', '.'))
-            row.append(price)
+                                  .replace('\n', '')
+                                  .replace(' ', '')
+                                  .replace('$', '')
+                                  .replace(',', '.'))
+            rows.append([name, category, price])
+            headers[1][2] = date.today().isoformat()
 
-        return pd.DataFrame([row], columns=headers)
+        return pd.DataFrame(rows, columns=headers)

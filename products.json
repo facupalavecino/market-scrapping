@@ -76,5 +76,41 @@
         "category": "aseo personal",
         "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=colgate",
         "element_id": "product-price-39589"
+    },
+    {
+        "name": "Cafe instantaneo Arlistan 170g",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=Arlistan",
+        "element_id": "product-price-19525"
+    },
+    {
+        "name": "Aceite Canuelas 900cc",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=Aceite+ca%C3%B1uelas",
+        "element_id": "product-price-23607"
+    },
+    {
+        "name": "Aceite Natura 900cc",
+        "category": "comestible",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=Aceite+natura",
+        "element_id": "product-price-20235"
+    },
+    {
+        "name": "Rollo de cocina Elite x3 (60 paños)",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=rollo+de+cocina",
+        "element_id": "product-price-20135"
+    },
+    {
+        "name": "Papel higienico doble hoja Higienol x4 (30mts)",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=papel+higienico+doble+hoja",
+        "element_id": "product-price-20131"
+    },
+    {
+        "name": "Limpiador liquido Procenex 900cc",
+        "category": "limpieza",
+        "url": "https://supermercado.carrefour.com.ar/catalogsearch/result/?q=limpiador+liquido+procenex",
+        "element_id": "product-price-22147"
     }
 ]
